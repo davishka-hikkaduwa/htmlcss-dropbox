@@ -32,6 +32,14 @@ body {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
 .padding-20vw {
     padding: 0 20vw;
 }
@@ -54,4 +62,14 @@ body {
 
 .border-black {
     border: 1px dotted black
+}
+
+.button {
+    padding: 5px;
+}
+
+.button-blue {
+    background-color: #0061FF;
+    color: white;
+    border: none;
 }

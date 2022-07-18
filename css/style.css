@@ -2,3 +2,26 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* SECTION intro */
+.intro-container {
+    padding-top: 30px;
+}
+
+.intro-container-body {
+    padding: 20px;
+}
+
+
+
+#jumbo-img {
+    height: 300px;
+}
+
+
+
+/* /SECTION intro */
+
+.subscription.checkbox {
+    padding-right: 30px
+}
