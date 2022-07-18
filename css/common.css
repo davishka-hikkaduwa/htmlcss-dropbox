@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.padding-20vw {
+    padding: 0 20vw;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-blue {
+    background-color: #B4D0E7;
+}
+
+.bg-black {
+    background-color: #000;
+}
