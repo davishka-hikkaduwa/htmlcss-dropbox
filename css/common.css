@@ -7,6 +7,27 @@ body {
     width: 100vw;
 }
 
+.debug.height-1200px {
+    height: 1200px;
+}
+
+.debug.height-800px {
+    height: 800px;
+}
+
+.debug.height-400px {
+    height: 400px;
+}
+
+.debug.height-200px {
+    height: 200px;
+}
+
+
+.debug.height-50px {
+    height: 50px;
+}
+
 .flex {
     display: flex;
 }
@@ -25,4 +46,12 @@ body {
 
 .bg-black {
     background-color: #000;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+
+.border-black {
+    border: 1px dotted black
 }
