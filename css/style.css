@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-body {
+/* body {
     width: 100vw;
-}
+} */
 
 /* GENERICS */
 .flex {
@@ -34,6 +34,23 @@ body {
 
 /* /GENERICS */
 
+/* UTILITIES */
+
+.w-70 {
+    margin: 0 70px;
+}
+
+.wp-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.hp-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* /UTILITIES */
 
 /* HEADER */
 header {
@@ -71,16 +88,16 @@ header {
 }
 
 .subscription-radio {
-    padding-right: 30px;
+    /* padding-right: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
 }
 
 #subscription-container {
     height: 800px;
-    justify-content: space-between;
+
     border: 1px dotted blue;
-    align-content: space-between;
+    /* align-content: space-between; */
 
 
 }
@@ -88,10 +105,14 @@ header {
 
 
 .subscription-column {
+
     background-color: aqua;
     /* padding: 20px; */
     border: 1px solid black;
     height: 600px;
+    width: calc(100% / 3 - 70px);
+    margin: 0 35px;
+
 
 }
 
