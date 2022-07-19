@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* body {
@@ -9,9 +10,6 @@
 
 /* GENERICS */
 
-section {
-    border: 2px solid green;
-}
 
 .flex {
     display: flex;
@@ -30,10 +28,21 @@ section {
 }
 
 .button {
-    padding: 3px;
+    padding: 3px 10px;
     width: fit-content;
+
+}
+
+.button-blue {
     color: white;
-    background-color: blue;
+    background-color: #0061FF;
+    border: 1px solid blue;
+}
+
+.button-white {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid grey;
 }
 
 
@@ -78,29 +87,81 @@ section {
 /* /UTILITIES */
 
 /* HEADER */
+/* fixed-header */
 header {
     border: 2px solid green;
 }
 
 #fixed-header {
-    padding-top: 30px;
+    position: fixed;
+    top: 0;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: white;
     border: 1px solid black;
+    width: 100vw;
+    height: 60px;
+
 }
 
+#nav-left>a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: grey;
+
+}
+
+#nav-right>a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+#nav-left {
+    width: 40vw;
+    padding: 10px 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-right {
+    width: 40vw;
+    padding: 10px 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* /fixed-header */
+
+
+/* jumbotron */
+
 #jumbotron {
+    margin-top: 60px;
     background-color: #B4D0E7;
     border: 1px solid black;
+    padding: 10vh 15vw;
+    height: 300px;
+
 }
 
 #jumbo-img {
+    height: 400px;
+    padding-top: 40px;
+}
+
+#content-intro {
+    padding-top: 40px;
     height: 300px;
+    justify-content: space-between;
+}
+
+#down-arrow {
+    font-size: 50px;
 }
 
 
 
+/* /jumbotron */
 /* /HEADER */
 
 /* SECTION subscriptions */

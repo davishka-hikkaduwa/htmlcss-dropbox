@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -15,20 +18,20 @@
         <!-- FIXED-HEADER -->
         <div id="fixed-header" class="flex">
             <!-- NAVIGATION LEFT -->
-            <nav class="nav-left">
-                <img src="#" alt="logo">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+            <nav id="nav-left" class="flex">
+                <img id="logo-img" src="img/logo-small.png" alt="logo">
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Funzioni</a>
+                <a href="#">Piani e Prezzi</a>
             </nav>
             <!-- /NAVIGATION LEFT -->
 
             <!-- NAVIGATION RIGHT -->
-            <nav class="nav-right">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <button class="button button-blue">Inizia</button>
+            <nav id="nav-right" class="flex">
+                <a href="#">Supporto</a>
+                <a href="#">Contatta l'ufficio vendite</a>
+                <a href="#">Accedi</a>
+                <button class="button button-blue h-fit-content">Inizia</button>
             </nav>
             <!-- /NAVIGATION RIGHT -->
         </div>
@@ -38,14 +41,18 @@
         <div id="jumbotron">
             <h1>Lorem ipsum, dolor sit amet consectetur adipisicing</h1>
             <div class="flex intro-container-body">
-                <div id="content-intro">
+                <div id="content-intro" class="flex column">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quam beatae ex, optio esse neque
                         enim pariatur eum est totam reiciendis rerum tempora, quo exercitationem illo temporibus dolorem
                         minima soluta?</p>
                     <button class="button button-blue">Inizia la tua prova gratuita</button>
                     <p>Lorem ipsum lorem ipsums</p>
+
+                    <p id="down-arrow">&#8595;</p>
                 </div>
+
                 <img id="jumbo-img" src="img/jumbo.png" alt="#">
+
             </div>
         </div>
         <!-- /JUMBOTRON -->
