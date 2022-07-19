@@ -8,6 +8,11 @@
 } */
 
 /* GENERICS */
+
+section {
+    border: 2px solid green;
+}
+
 .flex {
     display: flex;
 }
@@ -36,8 +41,23 @@
 
 /* UTILITIES */
 
+.h-fit-content {
+    height: fit-content;
+}
+
 .w-70 {
-    margin: 0 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.w-35 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.w-105 {
+    margin-left: 105px;
+    margin-right: 105px;
 }
 
 .wp-35 {
@@ -48,6 +68,11 @@
 .hp-60 {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.hp-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* /UTILITIES */
@@ -118,9 +143,9 @@ header {
 
 .subscription-row {
     background-color: aqua;
-    /* padding: 20px; */
     border: 1px solid black;
     height: 200px;
+
 
 }
 
@@ -143,8 +168,38 @@ header {
 /* SECTION product-description */
 
 #product-description {
-    border: 1px solid green;
+    border: 2px solid green;
+
+}
+
+
+#image-partner {
     height: 400px;
+    width: 500px;
+}
+
+#description-box {
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+#card-container {
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px dashed blue;
+    justify-content: space-evenly;
+    text-align: left;
+    width: calc(100% / 3 - 70px);
+    height: 400px;
+}
+
+.card-img {
+    align-self: center;
+    height: 170px;
+    width: 200px;
 }
 
 /* /SECTION product-description */
