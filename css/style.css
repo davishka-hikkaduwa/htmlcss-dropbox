@@ -4,7 +4,7 @@
 }
 
 /* SECTION intro */
-.intro-container {
+.fixed-header {
     padding-top: 30px;
 }
 
@@ -22,6 +22,38 @@
 
 /* /SECTION intro */
 
-.subscription.checkbox {
-    padding-right: 30px
+/* SECTION subscriptions */
+
+.subscription-checkbox {
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.subscription-type-container {
+    height: 200px;
+    justify-content: space-between;
+
+
+
+}
+
+.subscription-type {
+    width: 230px;
+    background-color: aqua;
+    /* padding: 20px; */
+}
+
+.subscription-type-panel-top {
+    height: 30px;
+}
+
+.subscription-type-panel-bottom {
+    height: calc(100% - 30px);
+    justify-content: space-;
+    padding: 25px;
+    align-content: center;
+    text-align: left;
+}
+
+/* /SECTION subscriptions */

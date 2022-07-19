@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -13,7 +12,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <div class="flex nav-bar border-red bg-white debug height-50px ">
+        <div class="fixed-header">
             <!-- NAVIGATION LEFT -->
             <nav class="nav-left border-black">
                 <img src="#" alt="logo">
@@ -32,12 +31,6 @@
             </nav>
             <!-- /NAVIGATION RIGHT -->
         </div>
-    </header>
-    <!-- /HEADER -->
-
-    <!-- MAIN -->
-    <main>
-        <!-- SECTION INTRO -->
         <div class="intro-container border-red bg-blue padding-20vw debug height-400px">
             <h1>Lorem ipsum, dolor sit amet consectetur adipisicing</h1>
             <div class="flex intro-container-body">
@@ -51,24 +44,64 @@
                 <img id="jumbo-img" src="img/jumbo.png" alt="#">
             </div>
         </div>
+
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION INTRO -->
+
         <!-- /SECTION INTRO -->
 
-        <!-- SECTION -->
-        <div class="border-red bg-white padding-20vw debug height-1200px">
+        <!-- SECTION SUBSCRIPTIONS-->
+        <div class="flex column border-red bg-white padding-20vw debug height-1200px">
             <h2>Lorem ipsum lorem ipsums</h2>
-            <div class="flex row">
-                <div class="subscription checkbox">
-                    <input type="checkbox" class="subscription" name="monthly-subscription" value="monthly">
+            <div class="flex subscription-checkbox-container row">
+                <div class="subscription-checkbox">
+                    <input type="radio" id="subscription" name="monthly-subscription" value="monthly">
+                    <input type="radio" id="subscription" name="annual-subscription" value="annual">
+                    <label for="annual-subscription">Fatturazione annuale</label>
                     <label for="monthly-subscription">Fatturazione mensile</label>
                 </div>
-                <div class="subscription checkbox">
-                    <input type="checkbox" class="subscription" name="annual-subscription" value="annual">
-                    <label for="annual-subscription">Fatturazione annuale</label>
+            </div>
+            <div class="flex subscription-type-container border-black debug height-600px">
+                <div class="flex subscription-type column wrap border-black debug height-600px">
+                    <div class="flex subscription-type-panel-top border-black">
+                        Singolo
+                    </div>
+                    <div class="flex column subscription-type-panel-bottom border-black">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dignissimos reiciendis
+                            praesentium.
+                        </p>
+                        <button class="button button-blue">Lorem ipsum</button>
+                        <h5>Lorem ipsum</h5>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="flex subscription-type column wrap border-black debug height-600px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga nobis delectus
+                    reiciendis
+                    amet vero, culpa dolores impedit, dignissimos ratione laudantium earum illum, ullam ipsa
+                    corporis
+                    aliquam accusantium! Autem, quae?
+                </div>
+                <div class="flex subscription-type column wrap border-black debug height-600px">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ea dignissimos unde. Dolore error
+                    unde
+                    exercitationem nam, aperiam perferendis deserunt officia, voluptatem deleniti dolores quibusdam!
+                    Vel
+                    tempore quaerat porro blanditiis?
                 </div>
             </div>
 
         </div>
-        <!-- /SECTION -->
+        <!-- /SECTION SUBSCRIPTIONS-->
 
         <!-- SECTION -->
         <div class="border-red bg-white padding-20vw debug height-1200px">
