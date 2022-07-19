@@ -1,18 +1,57 @@
-.nav-bar {
-    justify-content: space-between;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/* SECTION intro */
-.fixed-header {
+body {
+    width: 100vw;
+}
+
+/* GENERICS */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.button {
+    padding: 3px;
+    width: fit-content;
+    color: white;
+    background-color: blue;
+}
+
+
+/* /GENERICS */
+
+
+/* HEADER */
+header {
+    border: 2px solid green;
+}
+
+#fixed-header {
     padding-top: 30px;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: white;
+    border: 1px solid black;
 }
 
-.intro-container-body {
-    padding: 20px;
+#jumbotron {
+    background-color: #B4D0E7;
+    border: 1px solid black;
 }
-
-
 
 #jumbo-img {
     height: 300px;
@@ -20,40 +59,98 @@
 
 
 
-/* /SECTION intro */
+/* /HEADER */
 
 /* SECTION subscriptions */
 
-.subscription-checkbox {
+#subscriptions {
+    background-color: white;
+    border: 2px solid green;
+    height: 1200px;
+    /* padding: 20px; */
+}
+
+.subscription-radio {
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.subscription-type-container {
-    height: 200px;
+#subscription-container {
+    height: 800px;
     justify-content: space-between;
+    border: 1px dotted blue;
+    align-content: space-between;
 
 
+}
+
+
+
+.subscription-column {
+    background-color: aqua;
+    /* padding: 20px; */
+    border: 1px solid black;
+    height: 600px;
+
+}
+
+.subscription-row {
+    background-color: aqua;
+    /* padding: 20px; */
+    border: 1px solid black;
+    height: 200px;
 
 }
 
 .subscription-type {
-    width: 230px;
-    background-color: aqua;
-    /* padding: 20px; */
-}
-
-.subscription-type-panel-top {
     height: 30px;
+    border: 1px solid black;
+    text-align: center;
+
 }
 
-.subscription-type-panel-bottom {
-    height: calc(100% - 30px);
-    justify-content: space-;
+.subscription-info {
+    justify-content: space-between;
     padding: 25px;
     align-content: center;
     text-align: left;
 }
 
 /* /SECTION subscriptions */
+
+/* SECTION product-description */
+
+#product-description {
+    border: 1px solid green;
+    height: 400px;
+}
+
+/* /SECTION product-description */
+
+/* SECTION company-feedback */
+
+#company-feedback {
+    border: 2px solid green;
+    height: 400px;
+}
+
+/* /SECTION company-feedback */
+
+/* SECTION FAQ */
+
+#faq {
+    border: 2px solid green;
+    height: 400px;
+}
+
+/* /SECTION FAQ */
+/* /MAIN */
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+    border: 2px solid green;
+}
