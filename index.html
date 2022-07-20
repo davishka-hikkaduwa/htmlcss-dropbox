@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -62,22 +65,22 @@
     <!-- MAIN -->
     <main>
         <!-- SECTION SUBSCRIPTIONS-->
-        <section id="subscriptions" class="w-70">
+        <section id="subscriptions">
             <div class="flex column wp-35 hp-60">
-                <h2>Lorem ipsum lorem ipsums</h2>
-                <div class="subscription-radio">
-                    <input type="radio" id="subscription" name="monthly-subscription" value="monthly">
-                    <label for="monthly-subscription">Fatturazione mensile</label>
+                <h2><strong>Lorem ipsum lorem ipsums</strong></h2>
+                <div class="subscription-interval">
+                    <input id="monthly-payment" type="radio" name="payment" value="monthly">
+                    <label for="monthly-payment">Fatturazione mensile</label>
 
-                    <input type="radio" id="subscription" name="annual-subscription" value="annual">
-                    <label for="annual-subscription">Fatturazione annuale</label>
+                    <input id="annual-payment" type="radio" name="payment" value="annual">
+                    <label for="annual-payment">Fatturazione annuale</label>
                 </div>
             </div>
             <div>
                 <div id="subscription-container" class="flex row">
                     <div class="flex column subscription-column">
-                        <div class="subscription-type">
-                            Singolo
+                        <div class="flex subscription-type">
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
                         </div>
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>
@@ -93,8 +96,8 @@
                         </div>
                     </div>
                     <div class="flex column subscription-column">
-                        <div class="subscription-type">
-                            Singolo
+                        <div class="flex subscription-type">
+                            <span><i class="fa-solid fa-users"></i> Team</span>
                         </div>
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>
@@ -110,8 +113,8 @@
                         </div>
                     </div>
                     <div class="flex column subscription-column">
-                        <div class="subscription-type">
-                            Singolo
+                        <div class="flex subscription-type">
+                            <span><i class="fa-solid fa-building"></i> Azienda</span>
                         </div>
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>

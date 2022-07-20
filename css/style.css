@@ -140,8 +140,12 @@ header {
     background-color: #B4D0E7;
     border: 1px solid black;
     padding: 10vh 15vw;
-    height: 300px;
+    height: 400px;
+}
 
+#jumbotron>h1 {
+    font-size: 60px;
+    font-weight: bolder;
 }
 
 #jumbo-img {
@@ -167,16 +171,17 @@ header {
 /* SECTION subscriptions */
 
 #subscriptions {
+    padding: 10vh 20vw;
     background-color: white;
     border: 2px solid green;
     height: 1200px;
     /* padding: 20px; */
 }
 
-.subscription-radio {
-    /* padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px; */
+.subscription-interval {
+    padding-right: 30px;
+    padding-top: 40px;
+
 }
 
 #subscription-container {
@@ -214,6 +219,8 @@ header {
     height: 30px;
     border: 1px solid black;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 
 }
 
