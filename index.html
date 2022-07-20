@@ -34,7 +34,7 @@
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
-                <li><button class="button button-blue h-fit-content">Inizia</button></li>
+                <li class="li-button"><button class="button button-blue h-fit-content">Inizia</button></li>
             </ul>
             <!-- /NAVIGATION RIGHT -->
         </div>
@@ -53,9 +53,9 @@
 
                     <p id="down-arrow">&#8595;</p>
                 </div>
-
-                <img id="jumbo-img" src="img/jumbo.png" alt="#">
-
+                <div>
+                    <img id="jumbo-img" src="img/jumbo.png" alt="#">
+                </div>
             </div>
         </div>
         <!-- /JUMBOTRON -->
@@ -85,13 +85,14 @@
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>
                             <div class="flex price column">
-                                <span>euro 12.00</span>
-                                <span>/mese</span>
+                                <span class="bold">&euro; 12.00</span>
+                                <span class="grey-text">/mese</span>
                             </div>
                             <ul>
-                                <li><i class="fa-solid fa-user"></i> 1 utente</li>
-                                <li><i class="fa-solid fa-user"></i> 5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-user"></i> Funzioni di produttività premium e condivisione
+                                <li><i class="fa-solid fa-user icons"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-user icons"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-user icons"></i> Funzioni di produttività premium e
+                                    condivisione
                                     file semplice e sicura</li>
                             </ul>
                             <button class="button button-blue">Prova gratis per 30 giorni</button>
@@ -99,61 +100,87 @@
 
                             <h4>Punti salenti del piano</h4>
                             <ul>
-                                <li>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li>Cartelle offline su dispositivi mobili</li>
+                                <li><span class="blue-checkmark">&#10003;</span> Invia file fino a 100 GB con Dropbox
+                                    Transfert</li>
+                                <li><span class="blue-checkmark">&#10003;</span> Cartelle offline su dispositivi mobili
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="flex column subscription-column">
                         <div class="flex subscription-type">
-                            <span><i class="fa-solid fa-users"></i> Team</span>
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
                         </div>
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dignissimos reiciendis
-                                praesentium.
-                            </p>
-                            <button class="button button-blue">Lorem ipsum</button>
-                            <h5>Lorem ipsum</h5>
+                            <div class="flex price column">
+                                <span class="bold">&euro; 12.00</span>
+                                <span class="grey-text">/mese</span>
+                            </div>
                             <ul>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
+                                <li><i class="fa-solid fa-user icons"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-user icons"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-user icons"></i> Funzioni di produttività premium e
+                                    condivisione
+                                    file semplice e sicura</li>
+                            </ul>
+                            <button class="button button-blue">Prova gratis per 30 giorni</button>
+                            <span>oppure <a href="#">acquista ora</a></span>
+
+                            <h4>Punti salenti del piano</h4>
+                            <ul>
+                                <li><span class="blue-checkmark">&#10003;</span> Invia file fino a 100 GB con Dropbox
+                                    Transfert</li>
+                                <li><span class="blue-checkmark">&#10003;</span> Cartelle offline su dispositivi mobili
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="flex column subscription-column">
                         <div class="flex subscription-type">
-                            <span><i class="fa-solid fa-building"></i> Azienda</span>
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
                         </div>
                         <div class="flex column subscription-info">
                             <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dignissimos reiciendis
-                                praesentium.
-                            </p>
-                            <button class="button button-blue">Lorem ipsum</button>
-                            <h5>Lorem ipsum</h5>
+                            <div class="flex price column">
+                                <span class="bold">&euro; 12.00</span>
+                                <span class="grey-text">/mese</span>
+                            </div>
                             <ul>
-                                <li>Lorem</li>
-                                <li>Lorem</li>
+                                <li><i class="fa-solid fa-user icons"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-user icons"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-user icons"></i> Funzioni di produttività premium e
+                                    condivisione
+                                    file semplice e sicura</li>
+                            </ul>
+                            <button class="button button-blue">Prova gratis per 30 giorni</button>
+                            <span>oppure <a href="#">acquista ora</a></span>
+
+                            <h4>Punti salenti del piano</h4>
+                            <ul>
+                                <li><span class="blue-checkmark">&#10003;</span> Invia file fino a 100 GB con Dropbox
+                                    Transfert</li>
+                                <li><span class="blue-checkmark">&#10003;</span> Cartelle offline su dispositivi mobili
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="subscription-row w-35">
-                    <div class="subscription-type">
-                        Singolo
+                <div class="subscription-row">
+                    <div class="flex subscription-type">
+                        <span><i class="fa-solid fa-user"></i> Singolo</span>
                     </div>
-                    <div class="flex column subscription-info">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dignissimos reiciendis
-                            praesentium.
-                        </p>
-                        <button class="button button-blue">Lorem ipsum</button>
-                        <h5>Lorem ipsum</h5>
-                        <ul>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                        </ul>
+                    <div class="flex content-box row">
+                        <div class="flex column subscription-info">
+                            <h3>Lorem ipsum</h3>
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dignissimos reiciendis
+                                praesentium.
+                            </p>
+                        </div>
+                        <div class="btn-box">
+                            <button class="button button-blue">Lorem ipsum</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -236,15 +263,48 @@
 
         <!-- SECTION COMPANY_FEEDBACK-->
         <section id="company-feedback">
-            <div>
+            <div id="company-info">
                 <h2>Più di 500.000 team utilizano
                     Dropbox Business</h2>
                 <span> <a href="#">Scopri di più sui nostri clienti</a></span>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div id="company-blocks">
+                <div class="flex wrap">
+                    <div class="flex block-container wrap">
+                        <div class="square type-1">
+                            <img src="img/designit.svg" alt="img-1">
+                        </div>
+                        <div class="square type-2">
+                            <img src="img/arizona_state_university.svg" alt="img-2">
+                        </div>
+                        <div class="square type-3">
+                            <img src="img/university_of_florida.svg" alt="img-3">
+                        </div>
+                        <div class="square type-4">
+                            <img src="img/topps.svg" alt="img-4">
+                        </div>
+                    </div>
+                    <div class="feedback-container">
+                        <img src="img/designit.svg" alt="logo-designit">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias id ea tempora cupiditate?
+                        Laudantium in labore autem sapiente necessitatibus dolores ducimus odio blanditiis harum.
+                        Veritatis sapiente maxime optio dolore ducimus.
+                    </div>
+                    <div class="flex block-container wrap">
+                        <div class="square type-5">
+                            <img src="img/world_bicycle_relief.svg" alt="img-5">
+                        </div>
+                        <div class="square type-6">
+                            <img src="img/hearst_corp.svg" alt="img-6">
+                        </div>
+                        <div class="square type-7">
+                            <img src="img/lonely_planet.svg" alt="img-7">
+                        </div>
+                        <div class="square type-8">
+                            <img src="img/clear_channel.svg" alt="img-8">
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
