@@ -30,7 +30,10 @@
 .button {
     padding: 3px 10px;
     width: fit-content;
+}
 
+.button:hover {
+    opacity: 0.8;
 }
 
 .button-blue {
@@ -89,7 +92,7 @@
 /* HEADER */
 /* fixed-header */
 header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 #fixed-header {
@@ -97,35 +100,60 @@ header {
     top: 0;
     justify-content: space-between;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100vw;
-    height: 60px;
+    min-height: 60px;
 
 }
 
-#nav-left>a {
+ul {
+
+    list-style-type: none;
+}
+
+#nav-left>li {
+    padding-top: 30px;
     padding-left: 20px;
-    text-decoration: none;
-    color: grey;
+    min-height: 60px;
 
 }
 
-#nav-right>a {
+#nav-left>li:hover {
+    border-bottom: 2px solid black;
+}
+
+#nav-right>li {
+    padding-top: 30px;
     padding-right: 20px;
+    min-height: 60px;
+
+}
+
+li>a {
     text-decoration: none;
     color: grey;
+
 }
+
+#nav-right>li:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
 
 #nav-left {
     width: 40vw;
-    padding: 10px 10px;
+    min-height: 40px;
+    padding: 0 10px;
     justify-content: flex-start;
     align-items: center;
 }
 
 #nav-right {
     width: 40vw;
-    padding: 10px 10px;
+    min-height: 40px;
+    padding: 0 10px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -138,7 +166,7 @@ header {
 #jumbotron {
     margin-top: 60px;
     background-color: #B4D0E7;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10vh 15vw;
     height: 400px;
 }
@@ -173,7 +201,7 @@ header {
 #subscriptions {
     padding: 10vh 20vw;
     background-color: white;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 1200px;
     /* padding: 20px; */
 }
